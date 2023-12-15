@@ -116,6 +116,8 @@ body {
   padding: 1rem;
   background: radial-gradient(50% 50% at 50% 50%, rgba(237, 187, 255, 0.60) 0%, rgba(237, 187, 255, 0.00) 100%);
   background: radial-gradient(50% 50% at 50% 50%, #C6FCFF 0%, rgba(198, 252, 255, 0.00) 100%);
+  background: linear-gradient(#c6fcff, #edbbff);
+  
 }
 
 .card {
@@ -127,11 +129,13 @@ body {
   border-radius: 1.9rem;
   padding: 1rem 2rem;
   max-width: 60rem;
+  text-align: center;
 }
 
 @media (min-width: 40rem) {
   .card {
     flex-direction: row;
+    text-align: left;
   }
 }
 
@@ -151,10 +155,6 @@ body {
   margin-block: 1rem;
 }
 
-.heading,
-.worktitle {
-  text-align: center;
-}
 
 .heading {
   font-family: var(--ff--secondary);
